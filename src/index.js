@@ -31,7 +31,7 @@ app.get("/",(req,res)=>{
 
 app.get("*",(req,res)=>{
       res.render("404",{
-        errorcomment : "<h1> oops page not fount</h>"
+        errorcomment : "<h1> oops page not fount but already you put wrong text</h>"
       })
 })
 
